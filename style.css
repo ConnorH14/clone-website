@@ -1,0 +1,38 @@
+:root{
+  --theme: #95cee9;
+  --theme-grade: linear-gradient(180deg, rgba(149,206,233,1) 0%, rgba(96,164,208,1) 87%);
+  --theme-btn: #619BC0;
+  --theme-secondary: #5DA1CE;
+  --bg-theme-footer: #364049;
+}
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.bg-theme-grade{
+  background-color: var(--theme);
+  background: var(--theme-grade);
+}
+
+.bg-theme{
+  background-color: var(--theme);
+}
+
+.bg-theme-secondary{
+  background-color: var(--theme-secondary);
+}
+
+.theme-btn{
+  background-color: var(--theme-btn);
+  border-color: var(--theme-btn);
+}
+
+.bg-theme-footer{
+  background-color: var(--bg-theme-footer);
+}
+
+.custom-center{
+  display: grid;
+  place-content: center;
+}
